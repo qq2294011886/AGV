@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <!--充电区开始的横坐标-->
+  <BEGIN_CHARGESTATION>1
+  </BEGIN_CHARGESTATION>
+  <!--传送带开始的横坐标-->
+  <BEGIN_BELT>6</BEGIN_BELT>
+  <!--传送带结束的横坐标-->
+  <END_BELT>8</END_BELT>
+  <!--扫描仪开始的横坐标-->
+  <BEGIN_SCANNER>9</BEGIN_SCANNER>
+  <!--中间隔带的开始的横坐标-->
+  <BEGIN_MID_X>10</BEGIN_MID_X>
+  <!--中间隔带开始的纵坐标-->
+  <BEGIN_MID_Y>1</BEGIN_MID_Y>
+  <!--投放处开始的横坐标-->
+  <BEGIN_DESTINATION_X>13</BEGIN_DESTINATION_X>
+  <!--投放处开始的纵坐标-->
+  <BEGIN_DESTINATION_Y>1</BEGIN_DESTINATION_Y>
+  <!--障碍物开始的横坐标-->
+  <BEGIN_OBSTACLE_X>6</BEGIN_OBSTACLE_X>
+  <!--障碍物结束的横坐标-->
+  <END_OBSTACLE_X>10</END_OBSTACLE_X>
+  <!--障碍物开始的纵坐标-->
+  <BEGIN_OBSTACLE_Y>1</BEGIN_OBSTACLE_Y>
+  <!--最左侧空白处图例开始的横坐标-->
+  <BLANK_X>5</BLANK_X>
+  <!--最左侧空白处图例开始的纵坐标-->
+  <BLANK_Y>350</BLANK_Y>
+  <!--每个图例的间距-->
+  <SPACE>40</SPACE>
+  <!--电子地图的实际宽度-->
+  <WIDTH>500</WIDTH>
+  <!--电子地图实际的高度-->
+  <HEIGHT>500</HEIGHT>
+  <!--每一个方格的边长-->/
+  <BENCHMARK>25</BENCHMARK>
+<!--开始画方格的横坐标-->
+<BEGIN_X>0</BEGIN_X>
+<!--小车的数量-->
+<VEHICL_COUNT>2</VEHICL_COUNT>
+<PANEL_X>100</PANEL_X>
+<!--框体的长-->
+<Form_Height>500</Form_Height>
+<!--框体的宽-->
+<Form_Width>500</Form_Width>
+<map>
+<data1-1>障碍物</data1-1>    <data1-2>充电区</data1-2>    <data1-3>道路</data1-3>    <data1-4>道路</data1-4>    <data1-5>道路</data1-5>   <data1-6>道路</data1-6>   <data1-7>传送带</data1-7>    <data1-8>传送带</data1-8>    <data1-9>传送带</data1-9>    <data1-10>扫描仪</data1-10>    <data1-11>道路</data1-11>   <data1-12>道路</data1-12>     <data1-13>道路</data1-13>     <data1-14>道路</data1-14>      <data1-15>道路</data1-15>    <data1-16>道路</data1-16>    <data1-17>道路</data1-17>      <data1-18>道路</data1-18>     <data1-19>道路</data1-19>   <data1-20>道路</data1-20>
+<data2-1>障碍物</data2-1>    <data2-2>充电区</data2-2>    <data2-3>道路</data2-3>    <data2-4>道路</data2-4>    <data2-5>道路</data2-5>   <data2-6>道路</data2-6>   <data2-7>传送带</data2-7>    <data2-8>传送带</data2-8>    <data2-9>传送带</data2-9>    <data2-10>扫描仪</data2-10>    <data2-11>道路</data2-11>   <data2-12>道路</data2-12>     <data2-13>道路</data2-13>     <data2-14>投送处</data2-14>    <data2-15>道路</data2-15>    <data2-16>道路</data2-16>    <data2-17>投送处</data2-17>    <data2-18>道路</data2-18>     <data2-19>道路</data2-19>   <data2-20>投送处</data2-20>
+<data3-1>障碍物</data3-1>    <data3-2>充电区</data3-2>    <data3-3>道路</data3-3>    <data3-4>道路</data3-4>    <data3-5>道路</data3-5>   <data3-6>道路</data3-6>   <data3-7>传送带</data3-7>    <data3-8>传送带</data3-8>    <data3-9>传送带</data3-9>    <data3-10>扫描仪</data3-10>    <data3-11>道路</data3-11>   <data3-12>道路</data3-12>     <data3-13>道路</data3-13>     <data3-14>道路</data3-14>      <data3-15>道路</data3-15>    <data3-16>道路</data3-16>    <data3-17>道路</data3-17>      <data3-18>道路</data3-18>     <data3-19>道路</data3-19>   <data3-20>道路</data3-20>
+<data4-1>障碍物</data4-1>    <data4-2>充电区</data4-2>    <data4-3>道路</data4-3>    <data4-4>道路</data4-4>    <data4-5>道路</data4-5>   <data4-6>道路</data4-6>   <data4-7>传送带</data4-7>    <data4-8>传送带</data4-8>    <data4-9>传送带</data4-9>    <data4-10>扫描仪</data4-10>    <data4-11>道路</data4-11>   <data4-12>道路</data4-12>     <data4-13>道路</data4-13>     <data4-14>道路</data4-14>      <data4-15>道路</data4-15>    <data4-16>道路</data4-16>    <data4-17>道路</data4-17>      <data4-18>道路</data4-18>     <data4-19>道路</data4-19>   <data4-20>道路</data4-20>
+<data5-1>障碍物</data5-1>    <data5-2>充电区</data5-2>    <data5-3>道路</data5-3>    <data5-4>道路</data5-4>    <data5-5>道路</data5-5>   <data5-6>道路</data5-6>   <data5-7>传送带</data5-7>    <data5-8>传送带</data5-8>    <data5-9>传送带</data5-9>    <data5-10>扫描仪</data5-10>    <data5-11>道路</data5-11>   <data5-12>道路</data5-12>     <data5-13>道路</data5-13>     <data5-14>投送处</data5-14>    <data5-15>道路</data5-15>    <data5-16>道路</data5-16>    <data5-17>投送处</data5-17>    <data5-18>道路</data5-18>     <data5-19>道路</data5-19>   <data5-20>投送处</data5-20>
+<data6-1>障碍物</data6-1>    <data6-2>充电区</data6-2>    <data6-3>道路</data6-3>    <data6-4>道路</data6-4>    <data6-5>道路</data6-5>   <data6-6>道路</data6-6>   <data6-7>传送带</data6-7>    <data6-8>传送带</data6-8>    <data6-9>传送带</data6-9>    <data6-10>扫描仪</data6-10>    <data6-11>道路</data6-11>   <data6-12>道路</data6-12>     <data6-13>道路</data6-13>     <data6-14>道路</data6-14>      <data6-15>道路</data6-15>    <data6-16>道路</data6-16>    <data6-17>道路</data6-17>      <data6-18>道路</data6-18>     <data6-19>道路</data6-19>   <data6-20>道路</data6-20>
+<data7-1>障碍物</data7-1>    <data7-2>充电区</data7-2>    <data7-3>道路</data7-3>    <data7-4>道路</data7-4>    <data7-5>道路</data7-5>   <data7-6>道路</data7-6>   <data7-7>传送带</data7-7>    <data7-8>传送带</data7-8>    <data7-9>传送带</data7-9>    <data7-10>扫描仪</data7-10>    <data7-11>道路</data7-11>   <data7-12>道路</data7-12>     <data7-13>道路</data7-13>     <data7-14>道路</data7-14>      <data7-15>道路</data7-15>    <data7-16>道路</data7-16>    <data7-17>道路</data7-17>      <data7-18>道路</data7-18>     <data7-19>道路</data7-19>   <data7-20>道路</data7-20>
+<data8-1>障碍物</data8-1>    <data8-2>充电区</data8-2>    <data8-3>道路</data8-3>    <data8-4>道路</data8-4>    <data8-5>道路</data8-5>   <data8-6>道路</data8-6>   <data8-7>传送带</data8-7>    <data8-8>传送带</data8-8>    <data8-9>传送带</data8-9>    <data8-10>扫描仪</data8-10>    <data8-11>道路</data8-11>   <data8-12>道路</data8-12>     <data8-13>道路</data8-13>     <data8-14>投送处</data8-14>    <data8-15>道路</data8-15>    <data8-16>道路</data8-16>    <data8-17>投送处</data8-17>    <data8-18>道路</data8-18>     <data8-19>道路</data8-19>   <data8-20>投送处</data8-20>
+<data9-1>障碍物</data9-1>    <data9-2>充电区</data9-2>    <data9-3>道路</data9-3>    <data9-4>道路</data9-4>    <data9-5>道路</data9-5>   <data9-6>道路</data9-6>   <data9-7>传送带</data9-7>    <data9-8>传送带</data9-8>    <data9-9>传送带</data9-9>    <data9-10>扫描仪</data9-10>    <data9-11>道路</data9-11>   <data9-12>道路</data9-12>     <data9-13>道路</data9-13>     <data9-14>道路</data9-14>      <data9-15>道路</data9-15>    <data9-16>道路</data9-16>    <data9-17>道路</data9-17>      <data9-18>道路</data9-18>     <data9-19>道路</data9-19>   <data9-20>道路</data9-20>
+<data10-1>障碍物</data10-1>  <data10-2>充电区</data10-2>  <data10-3>道路</data10-3>  <data10-4>道路</data10-4>  <data10-5>道路</data10-5> <data10-6>道路</data10-6> <data10-7>传送带</data10-7>  <data10-8>传送带</data10-8>  <data10-9>传送带</data10-9>  <data10-10>扫描仪</data10-10>  <data10-11>道路</data10-11> <data10-12>道路</data10-12>   <data10-13>道路</data10-13>   <data10-14>道路</data10-14>    <data10-15>道路</data10-15>  <data10-16>道路</data10-16>  <data10-17>道路</data10-17>    <data10-18>道路</data10-18>   <data10-19>道路</data10-19> <data10-20>道路</data10-20>
+<data11-1>障碍物</data11-1>  <data11-2>充电区</data11-2>  <data11-3>道路</data11-3>  <data11-4>道路</data11-4>  <data11-5>道路</data11-5> <data11-6>道路</data11-6> <data11-7>传送带</data11-7>  <data11-8>传送带</data11-8>  <data11-9>传送带</data11-9>  <data11-10>扫描仪</data11-10>  <data11-11>道路</data11-11> <data11-12>道路</data11-12>   <data11-13>道路</data11-13>   <data11-14>投送处</data11-14>  <data11-15>道路</data11-15>  <data11-16>道路</data11-16>  <data11-17>投送处</data11-17>  <data11-18>道路</data11-18>   <data11-19>道路</data11-19> <data11-20>投送处</data11-20>
+<data12-1>障碍物</data12-1>  <data12-2>充电区</data12-2>  <data12-3>道路</data12-3>  <data12-4>道路</data12-4>  <data12-5>道路</data12-5> <data12-6>道路</data12-6> <data12-7>传送带</data12-7>  <data12-8>传送带</data12-8>  <data12-9>传送带</data12-9>  <data12-10>扫描仪</data12-10>  <data12-11>道路</data12-11> <data12-12>道路</data12-12>   <data12-13>道路</data12-13>   <data12-14>道路</data12-14>    <data12-15>道路</data12-15>  <data12-16>道路</data12-16>  <data12-17>道路</data12-17>    <data12-18>道路</data12-18>   <data12-19>道路</data12-19> <data12-20>道路</data12-20>
+<data13-1>障碍物</data13-1>  <data13-2>充电区</data13-2>  <data13-3>道路</data13-3>  <data13-4>道路</data13-4>  <data13-5>道路</data13-5> <data13-6>道路</data13-6> <data13-7>传送带</data13-7>  <data13-8>传送带</data13-8>  <data13-9>传送带</data13-9>  <data13-10>扫描仪</data13-10>  <data13-11>道路</data13-11> <data13-12>道路</data13-12>   <data13-13>道路</data13-13>   <data13-14>道路</data13-14>    <data13-15>道路</data13-15>  <data13-16>道路</data13-16>  <data13-17>道路</data13-17>    <data13-18>道路</data13-18>   <data13-19>道路</data13-19> <data13-20>道路</data13-20>
+<data14-1>障碍物</data14-1>  <data14-2>充电区</data14-2>  <data14-3>道路</data14-3>  <data14-4>道路</data14-4>  <data14-5>道路</data14-5> <data14-6>道路</data14-6> <data14-7>传送带</data14-7>  <data14-8>传送带</data14-8>  <data14-9>传送带</data14-9>  <data14-10>扫描仪</data14-10>  <data14-11>道路</data14-11> <data14-12>道路</data14-12>   <data14-13>道路</data14-13>   <data14-14>投送处</data14-14>  <data14-15>道路</data14-15>  <data14-16>道路</data14-16>  <data14-17>投送处</data14-17>  <data14-18>道路</data14-18>   <data14-19>道路</data14-19> <data14-20>投送处</data14-20>
+<data15-1>障碍物</data15-1>  <data15-2>充电区</data15-2>  <data15-3>道路</data15-3>  <data15-4>道路</data15-4>  <data15-5>道路</data15-5> <data15-6>道路</data15-6> <data15-7>传送带</data15-7>  <data15-8>传送带</data15-8>  <data15-9>传送带</data15-9>  <data15-10>扫描仪</data15-10>  <data15-11>道路</data15-11> <data15-12>道路</data15-12>   <data15-13>道路</data15-13>   <data15-14>道路</data15-14>    <data15-15>道路</data15-15>  <data15-16>道路</data15-16>  <data15-17>道路</data15-17>    <data15-18>道路</data15-18>   <data15-19>道路</data15-19> <data15-20>道路</data15-20>
+<data16-1>障碍物</data16-1>  <data16-2>充电区</data16-2>  <data16-3>道路</data16-3>  <data16-4>道路</data16-4>  <data16-5>道路</data16-5> <data16-6>道路</data16-6> <data16-7>传送带</data16-7>  <data16-8>传送带</data16-8>  <data16-9>传送带</data16-9>  <data16-10>扫描仪</data16-10>  <data16-11>道路</data16-11> <data16-12>道路</data16-12>   <data16-13>道路</data16-13>   <data16-14>道路</data16-14>    <data16-15>道路</data16-15>  <data16-16>道路</data16-16>  <data16-17>道路</data16-17>    <data16-18>道路</data16-18>   <data16-19>道路</data16-19> <data16-20>道路</data16-20>
+<data17-1>障碍物</data17-1>  <data17-2>充电区</data17-2>  <data17-3>道路</data17-3>  <data17-4>道路</data17-4>  <data17-5>道路</data17-5> <data17-6>道路</data17-6> <data17-7>传送带</data17-7>  <data17-8>传送带</data17-8>  <data17-9>传送带</data17-9>  <data17-10>扫描仪</data17-10>  <data17-11>道路</data17-11> <data17-12>道路</data17-12>   <data17-13>道路</data17-13>   <data17-14>投送处</data17-14>  <data17-15>道路</data17-15>  <data17-16>道路</data17-16>  <data17-17>投送处</data17-17>  <data17-18>道路</data17-18>   <data17-19>道路</data17-19> <data17-20>投送处</data17-20>
+<data18-1>障碍物</data18-1>  <data18-2>充电区</data18-2>  <data18-3>道路</data18-3>  <data18-4>道路</data18-4>  <data18-5>道路</data18-5> <data18-6>道路</data18-6> <data18-7>传送带</data18-7>  <data18-8>传送带</data18-8>  <data18-9>传送带</data18-9>  <data18-10>扫描仪</data18-10>  <data18-11>道路</data18-11> <data18-12>道路</data18-12>   <data18-13>道路</data18-13>   <data18-14>道路</data18-14>    <data18-15>道路</data18-15>  <data18-16>道路</data18-16>  <data18-17>道路</data18-17>    <data18-18>道路</data18-18>   <data18-19>道路</data18-19> <data18-20>道路</data18-20>
+<data19-1>障碍物</data19-1>  <data19-2>充电区</data19-2>  <data19-3>道路</data19-3>  <data19-4>道路</data19-4>  <data19-5>道路</data19-5> <data19-6>道路</data19-6> <data19-7>传送带</data19-7>  <data19-8>传送带</data19-8>  <data19-9>传送带</data19-9>  <data19-10>扫描仪</data19-10>  <data19-11>道路</data19-11> <data19-12>道路</data19-12>   <data19-13>道路</data19-13>   <data19-14>道路</data19-14>    <data19-15>道路</data19-15>  <data19-16>道路</data19-16>  <data19-17>道路</data19-17>    <data19-18>道路</data19-18>   <data19-19>道路</data19-19> <data19-20>道路</data19-20>
+<data20-1>障碍物</data20-1>  <data20-2>充电区</data20-2>  <data20-3>道路</data20-3>  <data20-4>道路</data20-4>  <data20-5>道路</data20-5> <data20-6>道路</data20-6> <data20-7>传送带</data20-7>  <data20-8>传送带</data20-8>  <data20-9>传送带</data20-9>  <data20-10>扫描仪</data20-10>  <data20-11>道路</data20-11> <data20-12>道路</data20-12>   <data20-13>道路</data20-13>   <data20-14>投送处</data20-14>  <data20-15>道路</data20-15>  <data20-16>道路</data20-16>  <data20-17>投送处</data20-17>  <data20-18>道路</data20-18>   <data20-19>道路</data20-19> <data20-20>投送处</data20-20>
+</map>
+</config>
