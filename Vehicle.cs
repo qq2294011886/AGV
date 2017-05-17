@@ -149,7 +149,7 @@ namespace AGV_V1._0
         /// 重绘函数
         /// </summary>
         /// <param name="g"></param>
-        public void Draw(Graphics g)
+        public void Draw(Graphics g,ElecMap Elc)
         {
             if (route.Count == 0)
             {
@@ -157,6 +157,7 @@ namespace AGV_V1._0
             }
             else
             {
+                Elc.TempMapNode[(int)route[routeIndex].y,(int)route[routeIndex].x].nodeCanUsed = false;
                 g.DrawImage(this.V_Picture, route[routeIndex].y * constDefine.BENCHMARK + constDefine.BEGIN_X, route[routeIndex].x * constDefine.BENCHMARK);
 
             }

@@ -22,3 +22,11 @@ C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号17点点\obj\Debug\AGV_V
 C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号17点点\obj\Debug\AGV_V1._0.Form1.resources
 C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号17点点\obj\Debug\AGV_V1._0.Properties.Resources.resources
 C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号17点点\obj\Debug\AGV_V1._0.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\obj\Debug\AGV_V1._0.exe
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\obj\Debug\AGV_V1._0.pdb
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\bin\Debug\AGV_V1._0.exe
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\bin\Debug\AGV_V1._0.pdb
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\obj\Debug\AGV_V1._0.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\obj\Debug\AGV_V1._0.Form1.resources
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\obj\Debug\AGV_V1._0.Properties.Resources.resources
+C:\Users\Administrator\Desktop\刘欢AGV_V1._0_5月17号21点\obj\Debug\AGV_V1._0.csproj.GenerateResource.Cache

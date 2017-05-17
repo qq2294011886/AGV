@@ -5,7 +5,7 @@
   <!--电子地图实际的高度-->
   <HEIGHT>2000</HEIGHT>
   <!--小车的数量-->
-  <VEHICL_COUNT>13</VEHICL_COUNT>
+  <VEHICL_COUNT>9</VEHICL_COUNT>
   <!--框体的长-->
   <Form_Height>700</Form_Height>
   <!--框体的宽-->
@@ -549,7 +549,7 @@
   <data17-8>传送带</data17-8>
   <data17-9>传送带</data17-9>
   <data17-10>障碍物</data17-10>
-  <data17-11>扫描仪</data17-11>
+  <data17-11>隔道</data17-11>
   <data17-12>隔道</data17-12>
   <data17-13>隔道</data17-13>
   <data17-14>投送处</data17-14>
@@ -1105,14 +1105,4 @@
   <agv8-Z>12</agv8-Z>
   <agv9-H>5</agv9-H>
   <agv9-Z>13</agv9-Z>
-  <agv10-H>5</agv10-H>
-  <agv10-Z>17</agv10-Z>
-  <agv11-H>5</agv11-H>
-  <agv11-Z>15</agv11-Z>
-  <data4-34>投送处</data4-34>
-  <data7-35>投送处</data7-35>
-  <agv12-H>4</agv12-H>
-  <agv12-Z>3</agv12-Z>
-  <agv13-H>4</agv13-H>
-  <agv13-Z>8</agv13-Z>
 </config>

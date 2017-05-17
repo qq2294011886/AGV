@@ -45,6 +45,8 @@ namespace AGV_V1._0
         public Image img_Png;                     //透明图片，当用户想要使某个节点消失时，点击设置
         public Image img_Flag;                    //点中目的地插小旗
         public Image img_Display;                //被选中为目的地时的状态
+        public Image img_Orange;                //被选中为目的地时的状态
+        public Image img_Yellow;
 
         //新建两个全局对象  小车、电子地图
         Vehicle[] vehicle;
@@ -163,7 +165,10 @@ namespace AGV_V1._0
             img_Png = Resources.Png;                      //透明按钮
             img_White = Resources.White;                  //白色图片
             img_Flag = Resources.Flag;                    //小旗
-            img_Display = Resources.Display;            //被选中时的状态
+            img_Display = Resources.Display;
+            img_Orange = Resources.Vehicle_Orange;
+            img_Yellow = Resources.Vehicle_Yellow;
+
 
             Vehicle_Start = false;
 
@@ -436,7 +441,7 @@ namespace AGV_V1._0
            
             for (int i = 0; i < count; i++)
             {
-                vehicle[i].Draw(g);
+                vehicle[i].Draw(g,Elc);
                 if(vehicle[i].route.Count-1==vehicle[i].routeIndex)
                 {
                     Elc.TempMapNode[vehicle[i].endX, vehicle[i].endY].oth = Elc.mapnode[vehicle[i].endX, vehicle[i].endY].oth;
@@ -497,6 +502,18 @@ namespace AGV_V1._0
                 Elc.TempMapNode[changeY(vehicle[i].Y), changeX(vehicle[i].X)].nodeCanUsed = false;
                 Elc.mapnode[changeY(vehicle[i].Y), changeX(vehicle[i].X)].nodeCanUsed = false;
             }
+
+            //bool a1 = Elc.TempMapNode[5, 5].nodeCanUsed;
+            //bool a2 = Elc.TempMapNode[6, 5].nodeCanUsed;
+            //bool a3 = Elc.TempMapNode[7, 5].nodeCanUsed;
+            //bool a4 = Elc.TempMapNode[8, 5].nodeCanUsed;
+            //bool a5 = Elc.TempMapNode[9, 5].nodeCanUsed;
+            //bool a6 = Elc.TempMapNode[10, 5].nodeCanUsed;
+            //bool a7 = Elc.TempMapNode[11, 5].nodeCanUsed;
+            //bool a8 = Elc.TempMapNode[12, 5].nodeCanUsed;
+            //bool a9 = Elc.TempMapNode[13, 5].nodeCanUsed;
+            //bool a10 = Elc.TempMapNode[14, 5].nodeCanUsed;
+
         }
         /// <summary>
         /// //检测冲突的节点，重新规划路线
@@ -509,7 +526,6 @@ namespace AGV_V1._0
             int count = constDefine.VEHICL_COUNT;
             for (int i = 0; i < count - 1; i++)
             {
-
                 Boolean flag = false;
                 for (int j = 0; j <= i; j++)
                 {
@@ -867,6 +883,7 @@ namespace AGV_V1._0
                     if (vehicle[i].startX == HeightNum && vehicle[i].startY == WidthNum)
                     {
                         Vehicle_Index = i;
+                        vehicle[Vehicle_Index].V_Picture = img_Orange;
                         break;
                     }
                 }
@@ -880,6 +897,7 @@ namespace AGV_V1._0
             //将点击的目的地的坐标记录下来
             if (Destination_Get == true&&CanStart==true)
             {
+                vehicle[Vehicle_Index].V_Picture = img_Yellow;
                 Set_Destination_X = WidthNum;
                 Set_Destination_Y = HeightNum;
 
